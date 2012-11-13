@@ -6,7 +6,7 @@ import "dieroller"
 func main() {
 	var max int
 	for i := 0; i < 1000; i++ {
-		var result = dieroller.roll()
+		var result = dieroller.Roll()
 		if result > max {
 			max = result
 		}

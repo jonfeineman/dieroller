@@ -1,5 +1,5 @@
 package dieroller
 
-func roll() int {
+func Roll() int {
 	return d6e()
 }
